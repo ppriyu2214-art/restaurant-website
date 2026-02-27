@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>TastyBite Modern</title>
+<link rel="stylesheet" href="style.css">
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+<nav>
+    <h2 class="logo">TastyBite</h2>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+</header>
+
+<section class="hero fade-in" id="home">
+    <h1>Experience Delicious Food</h1>
+    <p>Modern Taste • Fresh Ingredients</p>
+    <button onclick="scrollToMenu()">Explore Menu</button>
+</section>
+
+<section id="menu" class="fade-in">
+    <h2>Our Specials</h2>
+    <div class="menu-container">
+        <div class="card">
+    <img src="https://images.unsplash.com/photo-1554433607-66b5efe9d304?auto=format&fit=crop&w=800&q=80" alt="Sandwich">
+    <h3>Grilled Sandwich</h3>
+    <p>Crispy & Cheesy Delight</p>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1550547660-d9450f859349">
+            <h3>Burger</h3>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1525755662778-989d0524087e">
+            <h3>Pasta</h3>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="fade-in">
+    <h2>Book Now</h2>
+    <button onclick="openInstagram()">Visit Our Instagram</button>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
