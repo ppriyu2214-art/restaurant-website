@@ -1,57 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>TastyBite Modern</title>
-<link rel="stylesheet" href="style.css">
-
-<!-- Google Font -->
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>TastyBite Modern</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<header>
-<nav>
-    <h2 class="logo">TastyBite</h2>
-    <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#menu">Menu</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</nav>
+<!-- HEADER -->
+<header class="header">
+    <div class="logo">TastyBite</div>
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+    </nav>
 </header>
 
-<section class="hero fade-in" id="home">
-    <h1>Experience Delicious Food</h1>
-    <p>Modern Taste • Fresh Ingredients</p>
-    <button onclick="scrollToMenu()">Explore Menu</button>
+<!-- HERO -->
+<section id="home" class="hero">
+    <h1>Welcome to TastyBite</h1>
+    <p>Delicious food made with love ❤️</p>
+    <button onclick="visitInstagram()">Visit Instagram</button>
 </section>
 
-<section id="menu" class="fade-in">
-    <h2>Our Specials</h2>
-    <div class="menu-container">
-        <div class="card">
-    <img src="https://images.unsplash.com/photo-1554433607-66b5efe9d304?auto=format&fit=crop&w=800&q=80" alt="Sandwich">
-    <h3>Grilled Sandwich</h3>
-    <p>Crispy & Cheesy Delight</p>
-        </div>
-        <div class="card">
-            <img src="https://images.unsplash.com/photo-1550547660-d9450f859349">
-            <h3>Burger</h3>
-        </div>
-        <div class="card">
-            <img src="https://images.unsplash.com/photo-1525755662778-989d0524087e">
-            <h3>Pasta</h3>
-        </div>
+<!-- MENU -->
+<section id="menu" class="menu">
+
+    <div class="card fade-in">
+        <img src="https://images.unsplash.com/photo-1606755962773-d324e0a13086">
+        <h3>Grilled Sandwich</h3>
+        <p>Crispy & Cheesy Delight</p>
     </div>
+
+    <div class="card fade-in">
+        <img src="https://images.unsplash.com/photo-1550547660-d9450f859349">
+        <h3>Burger</h3>
+        <p>Juicy & Tasty</p>
+    </div>
+
+    <div class="card fade-in">
+        <img src="https://images.unsplash.com/photo-1521389508051-d7ffb5dc8b02">
+        <h3>Pasta</h3>
+        <p>Italian Special</p>
+    </div>
+
 </section>
 
-<section id="contact" class="fade-in">
-    <h2>Book Now</h2>
-    <button onclick="openInstagram()">Visit Our Instagram</button>
+<!-- CONTACT -->
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: tastybite@gmail.com</p>
+    <p>Phone: +91 9876543210</p>
 </section>
+
+<!-- FOOTER -->
 <footer class="footer">
-
     <div class="footer-container">
 
         <div class="footer-box">
@@ -78,7 +83,6 @@
     <div class="footer-bottom">
         © 2026 TastyBite | All Rights Reserved
     </div>
-
 </footer>
 
 <script src="script.js"></script>
