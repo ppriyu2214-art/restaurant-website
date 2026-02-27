@@ -98,7 +98,6 @@ nav ul li a:hover{
     box-shadow:0 10px 20px rgba(255,77,77,0.4);
 }
 
-/* FOOTER */
 .footer{
     background: #111;
     color: white;
@@ -126,7 +125,6 @@ nav ul li a:hover{
     color: white;
     text-decoration: none;
     margin-bottom: 8px;
-    transition: 0.3s;
 }
 
 .footer-box a:hover{
